@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="GF/Gf.css" />
+  </head>
+  <body>
+    <div class="Wrapper">
+      <header>
+        <h1>Register</h1>
+        <p>Please fill out your Informations</p>
+      </header>
+
+      <form action="#">
+        <div>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Name"
+            required=""
+          />
+        </div>
+        <div>
+          <input type="email" id="email" name="email" placeholder="Email" />
+        </div>
+        <div>
+          <label for="gender" class="Gender">Gender</label>
+          <input type="Radio" name="gender" class="Gender1" value="Male" /><span
+            >Male</span
+          >
+          <input
+            type="Radio"
+            name="gender"
+            class="Gender2"
+            value="Femle"
+          /><span>Female</span>
+        </div>
+
+        <div>
+          <label for="type" class="type">Type</label>
+          <input
+            type="radio"
+            name="type"
+            class="type1"
+            value="sponsored"
+          /><span>Sponsored</span>
+          <input type="radio" name="type" class="type2" value="paid" /><span
+            >Paid</span
+          >
+        </div>
+        <div>
+          <input
+            type="text"
+            name="Address"
+            id="Address"
+            placeholder="Address"
+          />
+        </div>
+        <div id="Str-Number">
+          <input type="telephone" name="Str-Number" placeholder="Str-Number" />
+        </div>
+        <div id="zip-code">
+          <input type="telephone" name="zip-code" placeholder="zip-code" />
+        </div>
+        <div>
+          <input
+            type="telephone"
+            name="phone-number"
+            id="phone-number"
+            placeholder="phone-number"
+          />
+        </div>
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+    <script src="./js/Gf.js"></script>
+  </body>
+</html>

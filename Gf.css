@@ -1,0 +1,194 @@
+@import "https://fonts.googleapis.com/css?family=Karla";
+body {
+  background-color: #383745;
+  font-family: "Karla";
+}
+
+.Wrapper {
+  background-color: #22202b;
+  position: relative;
+  margin: 50% auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 100%;
+  border-radius: 40px;
+  transition: all 200ms ease-in-out;
+}
+.Wrapper:hover {
+  scale: 0.98;
+}
+
+header p {
+  margin-top: 4px;
+  color: #6f524a;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+header h1 {
+  margin-bottom: 0;
+  line-height: 38px;
+  color: #6f524a;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="telephone"] {
+  margin: 10px 0;
+  width: 290px;
+  max-width: 100%;
+  padding: 8px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 0.5px solid #6f524a;
+  border-top: 0.5px solid #6f524a;
+  color: #6f524a;
+  letter-spacing: 1.2px;
+  outline: none;
+  background-color: transparent;
+}
+
+.type,
+.Gender {
+  margin-left: 10px;
+}
+
+.Gender1 {
+  margin: 15px 0 30px 50px;
+}
+.Gender2 {
+  margin-left: 85px;
+}
+.type1 {
+  margin-left: 65px;
+}
+.type2 {
+  margin-left: 50px;
+}
+span,
+label {
+  color: #6f524a;
+}
+
+#submit {
+  color: #6f524a;
+  padding: 8px 20px;
+  border-radius: 14px;
+  font-size: 15px;
+  display: block;
+  margin: 10px auto;
+  background-color: rgb(43, 41, 41);
+  border: none;
+  font-family: "karla";
+  box-shadow: 5px 5px 10px rgba(0, 0, 0 0.12);
+  transition: all 200ms ease-in-out;
+}
+#submit:hover {
+  background-color: #6f524a;
+  color: rgb(43, 41, 41);
+  border: 1px solid rgb(43, 41, 41);
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 48px;
+  }
+  header p {
+    font-size: 25px;
+    line-height: 38px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="telephone"] {
+    margin: 15px 0;
+    width: 320px;
+    max-width: 100%;
+    font-size: 14px;
+  }
+  #submit {
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 20px;
+  }
+  .Gender1 {
+    margin-left: 80px;
+  }
+
+  .type1 {
+    margin-left: 93px;
+  }
+  .Wrapper {
+    max-width: 80%;
+    max-height: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="telephone"] {
+    margin: 15px 0;
+    width: 400px;
+    max-width: 100%;
+    font-size: 15px;
+  }
+  header h1 {
+    font-size: 58px;
+  }
+  header p {
+    font-size: 25px;
+    line-height: 38px;
+  }
+  .Gender1 {
+    margin-left: 100px;
+  }
+  #Str-Number,
+  #zip-code {
+    width: 150px;
+    display: inline-block;
+  }
+
+  #zip-code {
+    margin-left: 95px;
+  }
+}
+.type1 {
+  margin-left: 114px;
+
+  .Wrapper {
+    max-width: 90%;
+    max-height: 90%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  header h1,
+  header p {
+    text-align: center;
+  }
+  header p {
+    font-size: 1.3em;
+  }
+
+  #submit {
+    text-align: left;
+    display: inline;
+  }
+  #Str-Number,
+  #zip-code {
+    width: 150px;
+    display: inline-block;
+  }
+
+  #zip-code {
+    margin-left: 95px;
+  }
+  .Wrapper {
+    max-width: 50%;
+    max-height: 90%;
+  }
+  form {
+    text-align: center;
+  }
+}
